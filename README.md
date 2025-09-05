@@ -14,3 +14,6 @@ emilys / emilyspass
 sophiab / sophiabpass
 
 Para a estrutura do meu programa, usei diretorias para organizar cada página da aplicação, uma diretoria user que gere os fetches à base de dados e uma diretoria common com constantes e as page routes a serem usadas pelo go_route.
+
+## Nota Final
+Não consegui implementar o BLoC no meu programa com sucesso e envio uma versão que não usa BLoC.
