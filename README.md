@@ -4,13 +4,13 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Para inicializar o projeto, corri o comando *flutter clean && flutter pub get && flutter run* num terminal de linux.
 
-A few resources to get you started if this is your first Flutter project:
+API usada é pública e chama-se DummyJSON. O site para a página da API é https://dummyjson.com. Usei o conjunto de utilizadores fornecidos pela aplicação para efetuar o login para o dashboard bem como guardei tokens de autenticação para manter a sessão do utilizador.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Alguns exemplos de utilizadores/passowrds para iniciar sessão:
+michaelw / michaelwpass
+emilys / emilyspass
+sophiab / sophiabpass
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para a estrutura do meu programa, usei diretorias para organizar cada página da aplicação, uma diretoria user que gere os fetches à base de dados e uma diretoria common com constantes e as page routes a serem usadas pelo go_route.
